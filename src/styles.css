@@ -1,0 +1,143 @@
+/* 🌍 Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* 🌟 Game Container */
+.game-container {
+    background: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* 🏆 Score Tracker */
+.score-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #2d2d2d;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* 📜 Quiz Styles */
+.quiz-container {
+    padding: 20px;
+}
+
+.quiz-question {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.quiz-options button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.quiz-options button:hover {
+    background: #0056b3;
+}
+
+/* ❓ Game Clues */
+.clue-container {
+    background: #fffae3;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    border: 2px dashed #f4a261;
+}
+
+/* 🎉 Result Feedback */
+.result-container {
+    padding: 20px;
+}
+
+.result-correct {
+    font-size: 2rem;
+    color: #28a745;
+}
+
+.result-wrong {
+    font-size: 2rem;
+    color: #dc3545;
+}
+
+.result-fact {
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.result-button {
+    margin-top: 15px;
+    padding: 12px;
+    background: #333;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.result-button:hover {
+    background: #555;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+    .game-container {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .quiz-question {
+        font-size: 1.2rem;
+    }
+}
+
+button {
+    display: inline-block;
+    padding: 12px 18px;
+    margin: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #ff6b6b, #f06595);
+    color: white;
+    box-shadow: 0px 5px 10px rgba(255, 107, 107, 0.3);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #f06595, #d6336c);
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 15px rgba(255, 107, 107, 0.4);
+}
